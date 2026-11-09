@@ -1,0 +1,15 @@
+# Datos personales y archivos generados (RS-07: no se publican rostros ni vectores)
+datos/
+logs/
+modelos/*.onnx
+Reconocimiento/
+*.db
+*.db-wal
+*.db-shm
+modeloEigenFace*.xml
+etiquetas.json
+
+# Compilados
+led/neopixel_spi
+__pycache__/
+*.pyc
